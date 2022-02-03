@@ -1,0 +1,54 @@
+.CertificacionItem {
+  padding: 24px;
+}
+
+.CertificacionItem-curso {
+  font-weight: bold;
+}
+
+.CertificacionItem:first-child {
+  margin-top: 0;
+}
+
+.CertificacionItem {
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 24px;
+  box-shadow: var(--color-shadow);
+  border-radius: 5px;
+}
+
+.CertificacionItem-curso,
+.CertificacionItem-entidadEducativa,
+.CertificacionItem-expedicion,
+.CertificacionItem-credencial-titulo,
+.CertificacionItem-credencial {
+  color: black;
+  width: calc(100% - 72px);
+  margin: 0;
+}
+
+.CertificacionItem-curso,
+.CertificacionItem-expedicion,
+.CertificacionItem-credencial {
+  margin-bottom: 30px;
+}
+
+.CertificacionItem-verCredencial {
+  padding: 5px;
+  border-radius: 4px;
+  align-self: flex-end;
+  color: white;
+  text-decoration: none;
+  background-color: var(--color-green);
+}
+
+@media only screen and (min-width: 768px) {
+  .CertificacionItem {
+    margin: 0;
+  }
+}

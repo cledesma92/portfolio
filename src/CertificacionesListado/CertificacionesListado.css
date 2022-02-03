@@ -1,0 +1,28 @@
+.CertificacionesListado {
+  padding: 24px;
+}
+
+.CertificacionesListado-titulo {
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+}
+
+.CertificacionesListado-ul {
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .CertificacionesListado-ul {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .CertificacionesListado-ul {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}

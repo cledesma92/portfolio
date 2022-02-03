@@ -1,0 +1,28 @@
+.ConocimientosListado {
+  padding: 24px;
+}
+
+.ConocimientosListado-titulo {
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+}
+
+.ConocimientosListado-ul {
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .ConocimientosListado-ul {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .ConocimientosListado-ul {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}

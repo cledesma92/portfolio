@@ -1,0 +1,28 @@
+.TrabajosListado {
+  padding: 24px;
+}
+
+.TrabajosListado-titulo {
+  padding-bottom: 3px;
+  border-bottom: 2px solid black;
+}
+
+.TrabajosListado-ul {
+  padding-left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .TrabajosListado-ul {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .TrabajosListado-ul {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+}

@@ -1,0 +1,52 @@
+.SobreMi {
+  display: grid;
+  grid-template: min-content min-content min-content/ 1fr 1fr;
+  height: min-content;
+  width: 100%;
+}
+
+.SobreMi-bloque {
+  background-color: var(--color-grey);
+  grid-column: 1/2;
+  grid-row: 1/4;
+  border-radius: 0 0 24px 0;
+}
+
+.SobreMi-contenedorTexto {
+  padding: 24px 24px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.SobreMi-cv {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  text-align: end;
+  margin: 24px;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 1.3em;
+  color: var(--color-green);
+  text-decoration: none;
+}
+
+.SobreMi-contenedorTexto-titulo {
+  color: var(--color-green);
+  font-size: 3em;
+  font-style: italic;
+}
+
+.SobreMi-contenedorTexto-parrafo {
+  font-size: 1.5em;
+  color: white;
+}
+
+.SobreMi-contenedorItem {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  padding: 0;
+  margin: 0;
+}

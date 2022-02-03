@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.5a47da66.css",
+    "main.js": "/portfolio/static/js/main.182e7e06.js",
+    "static/media/Oslo.png": "/portfolio/static/media/Oslo.c7346862d4364fcc7e1c.png",
+    "static/media/CV1.png": "/portfolio/static/media/CV1.8e549e6abd47d5a78146.png",
+    "static/media/portfolioAnterior.png": "/portfolio/static/media/portfolioAnterior.6878f1494df17aecf3cb.png",
+    "static/media/TODOmachine.png": "/portfolio/static/media/TODOmachine.24aec1708d0010bfd7b7.png",
+    "static/media/KeePass2.png": "/portfolio/static/media/KeePass2.f6d19a5946815d2f95e4.png",
+    "static/media/Foto.png": "/portfolio/static/media/Foto.11e2fbda4aa133637b84.png",
+    "static/media/Inkscape1.png": "/portfolio/static/media/Inkscape1.5c0ff1861da5121b7598.png",
+    "static/media/Manual.pdf": "/portfolio/static/media/Manual.3a8b0cd9d4ff57f94474.pdf",
+    "static/media/AMALAYA.png": "/portfolio/static/media/AMALAYA.1bbace1d47ba74b6de17.png",
+    "static/media/SimonDice.png": "/portfolio/static/media/SimonDice.30429ff350455e817d1a.png",
+    "static/media/KeePass1.png": "/portfolio/static/media/KeePass1.cfb323161458e4080dc5.png",
+    "static/media/KeePass3.png": "/portfolio/static/media/KeePass3.d58dd9068bb88b118c55.png",
+    "static/media/CV.png": "/portfolio/static/media/CV.bcac01d33efb4b5e84ab.png",
+    "static/media/CV1.pdf": "/portfolio/static/media/CV1.bce433b5ab0f59185c54.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.5a47da66.css.map": "/portfolio/static/css/main.5a47da66.css.map",
+    "main.182e7e06.js.map": "/portfolio/static/js/main.182e7e06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a47da66.css",
+    "static/js/main.182e7e06.js"
+  ]
+}

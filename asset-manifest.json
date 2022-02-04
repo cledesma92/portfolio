@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5a47da66.css",
-    "main.js": "/portfolio/static/js/main.182e7e06.js",
+    "main.css": "/portfolio/static/css/main.a141f463.css",
+    "main.js": "/portfolio/static/js/main.33e45a7a.js",
     "static/media/Oslo.png": "/portfolio/static/media/Oslo.c7346862d4364fcc7e1c.png",
     "static/media/CV1.png": "/portfolio/static/media/CV1.8e549e6abd47d5a78146.png",
     "static/media/portfolioAnterior.png": "/portfolio/static/media/portfolioAnterior.6878f1494df17aecf3cb.png",
@@ -14,14 +14,15 @@
     "static/media/SimonDice.png": "/portfolio/static/media/SimonDice.30429ff350455e817d1a.png",
     "static/media/KeePass1.png": "/portfolio/static/media/KeePass1.cfb323161458e4080dc5.png",
     "static/media/KeePass3.png": "/portfolio/static/media/KeePass3.d58dd9068bb88b118c55.png",
+    "static/media/curriculum.pdf": "/portfolio/static/media/curriculum.543737dfab9b66873b40.pdf",
     "static/media/CV.png": "/portfolio/static/media/CV.bcac01d33efb4b5e84ab.png",
     "static/media/CV1.pdf": "/portfolio/static/media/CV1.bce433b5ab0f59185c54.pdf",
     "index.html": "/portfolio/index.html",
-    "main.5a47da66.css.map": "/portfolio/static/css/main.5a47da66.css.map",
-    "main.182e7e06.js.map": "/portfolio/static/js/main.182e7e06.js.map"
+    "main.a141f463.css.map": "/portfolio/static/css/main.a141f463.css.map",
+    "main.33e45a7a.js.map": "/portfolio/static/js/main.33e45a7a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a47da66.css",
-    "static/js/main.182e7e06.js"
+    "static/css/main.a141f463.css",
+    "static/js/main.33e45a7a.js"
   ]
 }

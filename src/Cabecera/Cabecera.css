@@ -214,6 +214,10 @@
 }
 
 @media only screen and (max-height: 450px) {
+  .cabecera-titulo {
+    padding-bottom: 0;
+  }
+
   .cabecera-contenerdorTexto {
     flex-direction: row;
     justify-content: flex-end;

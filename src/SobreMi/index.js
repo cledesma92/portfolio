@@ -1,5 +1,6 @@
 import React from "react";
 import "./SobreMi.css";
+import curriculum from "../assets/archivos/curriculum.pdf";
 
 function SobreMi(props) {
   return(
@@ -12,7 +13,7 @@ function SobreMi(props) {
       <ul className="SobreMi-contenedorItem">
         {props.children}
       </ul>
-      <a className="SobreMi-cv" href="src" target="_blank" rel="noopener noreferrer">
+      <a className="SobreMi-cv" href={curriculum} target="_blank" rel="noopener noreferrer">
         Ver currículum
       </a>
     </section>

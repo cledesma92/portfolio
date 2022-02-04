@@ -39,8 +39,10 @@
 }
 
 .SobreMi-itemDescripcion-desplegar {
-  height: 175px;
+  height: 170px;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .SobreMi-itemDescripcion p {

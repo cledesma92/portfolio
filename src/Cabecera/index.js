@@ -40,31 +40,31 @@ function Cabecera(props) {
           </ul>
         </div>
         <div className="cabecera-bloque"></div>
-        <div className="cabecera-contenerdorTexto">
-          <h1 className="contenerdorTexto-nombre">Christian</h1>
-          <h1 className="contenerdorTexto-apellido">Ledesma</h1>
-          <h2 className="contenerdorTexto-texto">FRONT-END REACT</h2>
-          <h2 className="contenerdorTexto-texto">DEVELOPER</h2>
+        <div className="cabecera-contenedorTexto">
+
+          <h1 className="contenedorTexto-nombre">Christian</h1>
+          <div className="contenedor-github">
+            <a className="github" href="https://github.com/cledesma92" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github fa-1x"></i> cledesma92
+            </a>
+          </div>
+          <h1 className="contenedorTexto-apellido">Ledesma</h1>
+          <div className="contenedor-linkedin">
+            <a className="linkedin" href="https://www.linkedin.com/in/cledesma92/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin-in fa-1x"></i> cledesma92
+            </a>
+          </div>
+          <h2 className="contenedorTexto-texto1">FRONT-END REACT</h2>
+          <h2 className="contenedorTexto-texto2">DEVELOPER</h2>
+          
+          <a className="scroll" href="#SobreMi">
+            <i className="fas fa-angle-double-down fa-1x"></i>
+          </a>
         </div>
         <div className="cabecera-contenerdorFoto">
           <img className="foto" src={Foto} alt="Foto de perfil"></img>
         </div>
-        <div className="cabecera-contenedor">
-          <div className="cabecera-contenedorRedes">
-            <a href="https://www.linkedin.com/in/cledesma92/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin-in fa-1x"></i> cledesma92
-            </a>
-            <a href="https://github.com/cledesma92" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github fa-1x"></i> cledesma92
-            </a>
-          </div>
-
-          <div className="scroll">
-                <a href="#SobreMi">
-                    <i className="fas fa-angle-double-down fa-1x"></i>
-                </a>
-          </div>
-        </div>
+        
     </section>
   );
 }

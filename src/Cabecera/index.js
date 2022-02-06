@@ -49,19 +49,21 @@ function Cabecera(props) {
         <div className="cabecera-contenerdorFoto">
           <img className="foto" src={Foto} alt="Foto de perfil"></img>
         </div>
-        <div className="cabecera-contenedoRedes">
-          <a href="https://www.linkedin.com/in/cledesma92/" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-linkedin-in fa-1x"></i> cledesma92
-          </a>
-          <a href="https://github.com/cledesma92" target="_blank" rel="noopener noreferrer">
-            <i className="fab fa-github fa-1x"></i> cledesma92
-          </a>
+        <div className="cabecera-contenedor">
+          <div className="cabecera-contenedorRedes">
+            <a href="https://www.linkedin.com/in/cledesma92/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-linkedin-in fa-1x"></i> cledesma92
+            </a>
+            <a href="https://github.com/cledesma92" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-github fa-1x"></i> cledesma92
+            </a>
+          </div>
 
           <div className="scroll">
                 <a href="#SobreMi">
-                    <i className="fas fa-angle-double-down fa-2x"></i>
+                    <i className="fas fa-angle-double-down fa-1x"></i>
                 </a>
-            </div>
+          </div>
         </div>
     </section>
   );

@@ -26,14 +26,10 @@
   height: 100%;
 }
 
-.fa-linkedin-in,
-.fa-github {
-  display: inline-block;
-  text-align: center;
-  width: 20px;
-  height: 20px;
-  padding-right: 7px;
-  padding-top: 2px;
+.fa-linkedin,
+.fa-github-square {
+  width: 23px;
+  height: 23px;
 }
 
 .cabecera-titulo {
@@ -123,7 +119,6 @@
   width: max-content;
   height: 43px;
   padding-left: 24px;
-  padding-bottom: 3px;
 }
 
 .contenedorTexto-apellido {
@@ -141,7 +136,6 @@
   width: max-content;
   height: 43px;
   padding-left: 24px;
-  padding-bottom: 3px;
 }
 
 .contenedorTexto-texto1 {
@@ -163,6 +157,7 @@
   justify-content: flex-start;
   height: 100%;
   padding-left: 24px;
+  width: min-content;
 }
 
 .contenedorTexto-nombre,
@@ -185,7 +180,7 @@
   margin: 0;
   font-size: 1.3em;
   font-weight: normal;
-  margin-bottom: 5px;
+
   text-align: end;
   padding-right: 24px;
 }
@@ -195,6 +190,18 @@
   text-decoration: none;
   color: var(--color-grey);
   font-weight: bold;
+  transition: color 0.5s;
+}
+
+.linkedin:hover,
+.github:hover {
+  text-decoration: none;
+  color: var(--color-green);
+}
+
+.linkedin i,
+.github i {
+  font-size: 2.3em;
 }
 
 .contenedor-linkedin {
@@ -220,8 +227,8 @@
 /* ANIMATION */
 .scroll i {
   color: var(--color-grey);
-  font-size: 1.5em;
-  animation: miAnimacion 1s infinite ease alternate;
+  font-size: 1.7em;
+  animation: miAnimacion 1.5s infinite ease alternate;
 }
 
 @keyframes miAnimacion {
@@ -229,7 +236,7 @@
     opacity: 100%;
   }
   100% {
-    opacity: 30%;
+    opacity: 50%;
   }
 }
 
@@ -248,6 +255,7 @@
   .contenedorTexto-nombre,
   .contenedorTexto-apellido {
     font-size: 1.8em;
+    padding-right: 20px;
   }
 
   .contenedorTexto-apellido {
@@ -256,15 +264,22 @@
 
   .contenedor-github {
     height: 34px;
+    padding-left: 20px;
   }
 
   .contenedor-linkedin {
     height: 34px;
     margin-bottom: 15px;
+    padding-left: 20px;
+  }
+
+  .scroll {
+    padding-left: 20px;
   }
 
   .contenedorTexto-texto1,
   .contenedorTexto-texto2 {
+    padding-right: 20px;
     font-size: 0.9em;
     margin: 0;
   }
@@ -308,13 +323,23 @@
     display: none;
   }
 
+  .contenedorTexto-nombre,
   .contenedorTexto-apellido {
-    margin: 0 0 0 10px;
+    font-size: 1.8em;
+    margin: 0;
+  }
+
+  .linkedin i,
+  .github i {
+    font-size: 1.8em;
   }
 
   .contenedor-linkedin,
   .contenedor-github {
+    height: 34px;
     margin: 0;
+    padding-bottom: 0;
+    justify-content: center;
   }
 
   .menu-lista-desplegar {

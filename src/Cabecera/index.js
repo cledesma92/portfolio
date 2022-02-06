@@ -45,13 +45,13 @@ function Cabecera(props) {
           <h1 className="contenedorTexto-nombre">Christian</h1>
           <div className="contenedor-github">
             <a className="github" href="https://github.com/cledesma92" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github fa-1x"></i> cledesma92
+              <i className="fab fa-github-square fa-x"></i>
             </a>
           </div>
           <h1 className="contenedorTexto-apellido">Ledesma</h1>
           <div className="contenedor-linkedin">
             <a className="linkedin" href="https://www.linkedin.com/in/cledesma92/" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin-in fa-1x"></i> cledesma92
+              <i className="fab fa-linkedin fa-1x"></i>
             </a>
           </div>
           <h2 className="contenedorTexto-texto1">FRONT-END REACT</h2>

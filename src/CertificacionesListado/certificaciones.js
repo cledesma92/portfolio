@@ -1,5 +1,17 @@
 
 const certificaciones = [
+  { curso:"Curso de Historias de Usuario en Scrum", 
+    entidadEducativa:"Platzi", 
+    expedicion:"ene. 2022",
+    credencial:"26365082-cce0-4407-aea2-5ca6fc276295",
+    verCredencial:"https://platzi.com/p/cledesma92/curso/2616-historias-usuario-scrum/diploma/detalle/"
+  },
+  { curso:"Curso Profesional de Scrum", 
+    entidadEducativa:"Platzi", 
+    expedicion:"feb. 2022",
+    credencial:"8cf77e76-0831-4801-9e34-ff8b1c7154e2",
+    verCredencial:"https://platzi.com/p/cledesma92/curso/1750-scrum/diploma/detalle/"
+  },
   { curso:"Curso de Introducción a React.js", 
     entidadEducativa:"Platzi", 
     expedicion:"ene. 2022",

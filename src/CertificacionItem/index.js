@@ -12,7 +12,7 @@ function CertificacionItem(props) {
       <p className="CertificacionItem-credencial-titulo">ID de la credencial:</p>
       <p className="CertificacionItem-credencial">{props.credencial}</p>
       
-      <a className="CertificacionItem-verCredencial" href={props.verCredencial} target="_blank" rel="noopener noreferrer">Ver credencial</a>
+      <a className="CertificacionItem-verCredencial" href={props.verCredencial} target="_blank" rel="noopener noreferrer">Ver diploma</a>
     </li>
   );
 }

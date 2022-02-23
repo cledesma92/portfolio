@@ -2,7 +2,7 @@
 const certificaciones = [
   { curso:"Curso de Historias de Usuario en Scrum", 
     entidadEducativa:"Platzi", 
-    expedicion:"ene. 2022",
+    expedicion:"feb. 2022",
     credencial:"26365082-cce0-4407-aea2-5ca6fc276295",
     verCredencial:"https://platzi.com/p/cledesma92/curso/2616-historias-usuario-scrum/diploma/detalle/"
   },

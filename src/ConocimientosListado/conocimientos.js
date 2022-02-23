@@ -3,7 +3,7 @@ const conocimientos = [
     text:"Comandos básicos y avanzados en Git, trabajo en repositorios remotos, flujo de trabajo profesional en multiples entornos de trabajo en Git.",
   },
   { titulo:"Scrum", 
-    text:"Principios del las metodologías ágiles, roles, ceremonias y artfactos, definir y refinar historias de usuarios, medicion del avance de proyecto (Burn-down chart, Burn-up chart y diagrama de flujo acumulado), manejo de tableros en Trello.",
+    text:"Principios del las metodologías ágiles, roles, ceremonias y artefactos, definir y refinar historias de usuarios, medición del avance de proyecto (Burn-down chart, Burn-up chart y diagrama de flujo acumulado), manejo de tableros en Trello.",
   },
   { titulo:"React", 
     text:"React components, maquetación, escabilidad, manejo de eventos y estados, Hooks, custom Hooks, persistencia de datos en local storage, manejo de efectos, React Context, portales para teletransportación de componentes, CSS in React."

@@ -1,4 +1,6 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+import portada from "../assets/img/portada.png";
 import { Cabecera } from "../Cabecera";
 import { SobreMi } from "../SobreMi";
 import { informacion } from "../SobreMi/informacion";
@@ -18,6 +20,24 @@ import { Footer } from "../Footer";
 function App() {
   return (
     <React.Fragment>
+      <Helmet>
+        <meta 
+          property="og:title" 
+          content="Portfolio Web"  
+        />
+        <meta 
+          property="og:type" 
+          content="website"
+        />
+        <meta 
+          property="og:url" 
+          content="https://cledesma92.github.io/portfolio/"
+        />
+        <meta 
+          property="og:image" 
+          content={portada}
+        />
+      </Helmet>
       <Cabecera />
       <SobreMi>
         { informacion.map(info => (

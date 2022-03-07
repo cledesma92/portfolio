@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import portada from "../assets/img/portada.png";
+import portada from "https://raw.githubusercontent.com/cledesma92/portfolio/master/src/assets/img/portada.png";
 import { Cabecera } from "../Cabecera";
 import { SobreMi } from "../SobreMi";
 import { informacion } from "../SobreMi/informacion";

@@ -1,6 +1,5 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import portada from "https://raw.githubusercontent.com/cledesma92/portfolio/master/src/assets/img/portada.png";
 import { Cabecera } from "../Cabecera";
 import { SobreMi } from "../SobreMi";
 import { informacion } from "../SobreMi/informacion";
@@ -18,6 +17,7 @@ import { Contactame } from "../Contactame";
 import { Footer } from "../Footer";
 
 function App() {
+  let portada = "https://raw.githubusercontent.com/cledesma92/portfolio/master/src/assets/img/portada.png";
   return (
     <React.Fragment>
       <Helmet>

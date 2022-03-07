@@ -17,10 +17,10 @@ import { Contactame } from "../Contactame";
 import { Footer } from "../Footer";
 
 function App() {
-  let portada = "https://raw.githubusercontent.com/cledesma92/portfolio/master/src/assets/img/portada.png";
+  // let portada = "https://raw.githubusercontent.com/cledesma92/portfolio/master/src/assets/img/portada.png";
   return (
     <React.Fragment>
-      <Helmet>
+      {/* <Helmet>
         <meta 
           property="og:title" 
           content="Portfolio Web"  
@@ -37,7 +37,7 @@ function App() {
           property="og:image" 
           content={portada}
         />
-      </Helmet>
+      </Helmet> */}
       <Cabecera />
       <SobreMi>
         { informacion.map(info => (

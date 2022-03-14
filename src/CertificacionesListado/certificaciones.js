@@ -1,5 +1,11 @@
 
 const certificaciones = [
+  { curso:"Curso de Fundamentos de Product Owner", 
+    entidadEducativa:"Platzi", 
+    expedicion:"mar. 2022",
+    credencial:"b88f56ab-21a6-4216-92f6-c41afd30b8cf",
+    verCredencial:"https://platzi.com/p/cledesma92/curso/2618-product-owner/diploma/detalle/"
+  },
   { curso:"Curso de Historias de Usuario en Scrum", 
     entidadEducativa:"Platzi", 
     expedicion:"feb. 2022",

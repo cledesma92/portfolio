@@ -54,7 +54,7 @@ function Cabecera(props) {
               <i className="fab fa-linkedin fa-1x"></i>
             </a>
           </div>
-          <h2 className="contenedorTexto-texto1">FRONT-END REACT</h2>
+          <h2 className="contenedorTexto-texto1">FRONT-END</h2>
           <h2 className="contenedorTexto-texto2">DEVELOPER</h2>
           
           <a className="scroll" href="#SobreMi">

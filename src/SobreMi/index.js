@@ -14,7 +14,7 @@ function SobreMi(props) {
       </ul>
       <a 
         className="SobreMi-cv" 
-        href="https://drive.google.com/file/d/1iHQTjiaBdC58JGwVq-VShAWeOzvX81f4/view?usp=sharing" 
+        href="https://drive.google.com/file/d/186E3yDMZFSlRDK569J8r3n7Me-JTmrOw/view?usp=sharing" 
         target="_blank" 
         rel="noopener noreferrer"
       >

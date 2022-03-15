@@ -1,11 +1,9 @@
 import TODOmachine from "../assets/img/TODOmachine.png";
 import Inkscape1 from "../assets/img/Inkscape1.png";
 import CV1 from "../assets/img/CV1.png";
-import CV1Archivo from "../assets/archivos/CV1.pdf";
 import SimonDice from "../assets/img/SimonDice.png";
 import AMALAYA from "../assets/img/AMALAYA.png";
 import CV from "../assets/img/CV.png";
-import manual from "../assets/archivos/Manual.pdf";
 import portfolioAnterior from "../assets/img/portfolioAnterior.png";
 import KeePass1 from "../assets/img/KeePass1.png";
 import KeePass2 from "../assets/img/KeePass2.png";
@@ -25,7 +23,7 @@ const trabajos = [
     fondo:{ background: `url(${CV1}) no-repeat center`,
             backgroundSize: 'cover',
           },
-    ruta:CV1Archivo
+    ruta:"https://drive.google.com/file/d/1XirbxVtKwGQ5xLZsRDSm0cVWREj7aPvt/view?usp=sharing"
   },
   { titulo:"Instalación y configuración de Inkscape 1.0.2",
     categorias:"Inkscape | Video educativo, youTuBe, aporte, Inkscape, diseño.",
@@ -46,7 +44,7 @@ const trabajos = [
     fondo:{ background: `url(${AMALAYA}) no-repeat center`,
             backgroundSize: 'cover',
           },
-    ruta:manual
+    ruta:"https://drive.google.com/file/d/124JhdsoCHcfocFCPEeGWrCEtWDXKjKDl/view?usp=sharing"
   },
   { titulo:"CV con estilo",
     categorias:"Inkscape | Diseño gráfico, currículum vitae.",

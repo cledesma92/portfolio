@@ -1,5 +1,5 @@
 const conocimientos = [
-  { titulo:"Git", 
+  { titulo:"Git y gestión de repositorios", 
     text:"Comandos básicos y avanzados en Git, trabajo en repositorios remotos, tags y versionado, configuración de llaves SSH, manejo de ramas, configurar múltiples colaboradores en un repositorio, flujo de trabajo profesional con Pull requests, forks.",
   },
   { titulo:"Scrum", 
